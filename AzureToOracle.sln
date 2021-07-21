@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureToOracle", "AzureToOracle.csproj", "{0F5AA66E-3DB2-430F-B35E-3A4FA41340ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F5AA66E-3DB2-430F-B35E-3A4FA41340ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5AA66E-3DB2-430F-B35E-3A4FA41340ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5AA66E-3DB2-430F-B35E-3A4FA41340ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5AA66E-3DB2-430F-B35E-3A4FA41340ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00266F0C-22BA-4EA5-A94C-E14F9AA69E5E}
+	EndGlobalSection
+EndGlobal
