@@ -101,8 +101,8 @@ namespace AzureToOracle
 
         static int ToOracle()
         {
-            string connectionstring = "Data Source = (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=20.86.129.225)(PORT=1521))" +
-            "(CONNECT_DATA=(SERVER = DEDICATED)(SERVICE_NAME = KinoOracle.2cdvt5pw30uuzekap1jl54b4ke.ax.internal.cloudapp.net)))" +
+            string connectionstring = "Data Source = (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=20.86.129.225)(PORT=1488))" +
+            "(CONNECT_DATA=(SERVER = DEDICATED)(SERVICE_NAME = KinoOracle)))" +
             ";User Id = kino; password = Kino_password";
             OracleConnection con = new OracleConnection();
             con.ConnectionString = connectionstring;
@@ -117,7 +117,7 @@ namespace AzureToOracle
                 " link NVARCHAR2(2000), description NVARCHAR2(2000), photo NVARCHAR2(2000), address NVARCHAR2(2000), price int)", con);
                 int create_ret = create.ExecuteNonQuery();
                 Console.WriteLine("create returned with exit code: " + create_ret);
-
+                
                 for (int i = 0; i < cnt; i++)
                 {
                     OracleCommand insert = con.CreateCommand();
